@@ -9,7 +9,8 @@ app.use(cors());
 
 mongoose.connect('mongodb://localhost:27017/CRUD', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useFindAndModify: false
 });
 
 requireDir('./src/models');
