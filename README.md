@@ -38,6 +38,8 @@ Finally, you will need a rest api client to test "**NodeJS CRUD**". Examples:
 
 After clone repository, run **```npm i```** to install dependencies and run **```nodemon```** to start de aplication.
 
+<i>If you don't have nodemon installed, run **```npm install nodemon -g```**.</i>
+
 Now you can use your REST API Client to test "**NodeJS CRUD**".
 
 <h3>Notes</h3>
