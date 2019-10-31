@@ -3,11 +3,13 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 
+require('dotenv/config');
+
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://localhost:27017/CRUD', {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
