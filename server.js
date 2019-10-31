@@ -19,4 +19,4 @@ requireDir('./src/models');
 
 app.use('/api', require('./src/routes'));
 
-app.listen(3000);
+app.listen(process.env.APP_PORT);
