@@ -1,6 +1,6 @@
 # NodeJS CRUD
 
-A simple project to have a rest crud api with nodejs.
+A simple project to have a rest crud api with NodeJS.
 
 <h3>Getting Started</h3>
 
@@ -66,6 +66,6 @@ You also can change de schema to the way you want "**Person.js**".
 
 <h3>License</h3>
 
-This project is licensed under the MIT License - see the <a href="https://github.com/matheusleandroo/rocketseat-starter-es6/blob/master/LICENSE">LICENSE.md</a> file for details.
+This project is licensed under the MIT License - see the <a href="https://github.com/matheusleandroo/nodejs-crud/blob/master/LICENSE">LICENSE.md</a> file for details.
 
 Based on <a href="https://rocketseat.com.br/starter">Starter Rocketseat</a> :rocket:
