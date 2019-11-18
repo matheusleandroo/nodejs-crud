@@ -61,7 +61,7 @@ You also can change de schema to the way you want "**Person.js**".
 <h3>Authors</h3>
 
 <ul>
-  <li>Matheus Leandro</li>
+  <li><a href="http://matheusleandro.com">Matheus Leandro</a></li>
 </ul>
 
 <h3>License</h3>
