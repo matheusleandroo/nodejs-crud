@@ -12,7 +12,10 @@ app.use(cors());
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false
+    useFindAndModify: false,
+    auth: { authSource: process.env.MONGO_AUTHSOURCE },
+    user: process.env.MONGO_USER,
+    pass: process.env.MONGO_PASS,
 });
 
 requireDir('./src/models');
