@@ -40,9 +40,9 @@ Finally, you will need a rest api client to test "**NodeJS CRUD**". Examples:
 
 After clone repository, go to folder and follow this steps:
 
-- Run **`yarn`** to install dependencies;
 - Create a file **.env** based on the file **`.env.example`**;
 - Put your credentials inside **`.env`**;
+- Run **`yarn`** to install dependencies;
 - Run **`yarn dev`** to start de aplication.
 
 Now you can use your REST API Client to test "**NodeJS CRUD**".
